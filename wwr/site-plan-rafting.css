@@ -161,3 +161,20 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+ul {
+  background-color: var(--nav-background-color);
+  line-height: 3em;
+  text-align: center;
+  font-size: 1.2em;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+}
+ul a {
+  padding:1em;
+  min-width: 120px;
+  text-decoration: none;
+  padding: 10px;
+}

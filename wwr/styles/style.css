@@ -1,8 +1,83 @@
+.content{
+    margin: 0 auto;
+}
+#mount-img{
+    width: 100%;
+    height: 100%;
+}
+.mount-grid {
+    text-align: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr  1fr 1fr;
+   
+}
+.mount-grid{
+    background-color: #6f7364;
+    padding: 5px;
+    box-shadow: 5px 5px 10px #aae40a;
+    border-radius: 10px solid #d9c2a3;
+    width: 100%;
+    
+}
+#mountains-box{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 500px;
+    justify-content: center;
+    
+}
+
+#mount-img{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 100%;
+    height: 100%;
+    
+}
+
+#mount-title{
+    z-index: 1;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: center;
+}
+.big-card{
+    background-color: #6f7364;
+    padding: 5px;
+    box-shadow: 5px 5px 10px #6f7364;
+    border-radius: 10px solid #d9c2a3;
+    width: 100%;
+    
+    
+
+}
+.great-card{
+    background-color: #6f7364;
+    padding: 5px;
+    box-shadow: 5px 5px 10px #6f7364;
+    border-radius: 10px solid #d9c2a3;
+    width: 100%;
+    height: 300px;
+
+}
+.beauty-card{
+    background-color: #6f7364;
+    padding: 5px;
+    box-shadow: 5px 5px 10px #6f7364;
+    border-radius: 10px solid #d9c2a3;
+    width: 100%;
+    
+   
+
+
+}
 nav a{
     text-align: center;
     text-decoration: none;
     color: #df8a1c;
     padding: 35px
+    
  }
  nav {
     display: flex;
@@ -68,7 +143,7 @@ main section{
  header {
      background-color:rgba(20,30,13, .7);
      display: grid;
-    grid-template-columns: 150px auto;
+     grid-template-columns: 150px auto;
  }
  nav a:hover {
      background-color: black;
@@ -176,6 +251,7 @@ main section{
     box-shadow: 5px 5px 10px #6f7364;
     border-radius: 10px solid #d9c2a3;
     width: 100%;
+    height: 300px;
 }
  .mountains {
     width: 100%;
@@ -183,6 +259,7 @@ main section{
     grid-column: 2/7;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
+    height: 300px;
 }
 
 .card-img {
@@ -190,6 +267,7 @@ main section{
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
     width: 100%;
+    height: 300px;
 }
 .card-img:hover {
     opacity: .6;
@@ -219,6 +297,27 @@ main section{
 .msg{
     grid-column: 6/10;
     grid-row: 6/7;
+
+}
+ul a {
+    text-align: center;
+    text-decoration:none;
+    color: #df8a1c;
+    padding: 35px
+     
+ }
+ul {
+    display: flex;
+    justify-content: space-around;
+    background-color:rgba(20,30,13, .7);
+    margin-top: 50px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+h2{
+    text-align: center;
+}
+p {
+    text-align: center;
 }
 
 @media screen and (max-width: 900px) {

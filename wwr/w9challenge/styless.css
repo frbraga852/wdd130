@@ -1,0 +1,37 @@
+body {
+  background-color: black;
+  
+}
+
+ .content {
+    background-color: white;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+
+ }
+ img{
+  margin-bottom:20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+ }
+ h2 {
+  font-size: 0.95em;
+  color:blue;
+  border-bottom: -20px;
+ }
+ h1, h2, p{
+  text-align: center;
+
+ }
+ .bottom {
+    background-color:green;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr 1px 1fr;
+ }
+ .bottom div {
+  background-color: white;
+ }
