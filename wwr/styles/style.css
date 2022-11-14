@@ -1,3 +1,17 @@
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 3em;
+    right: 1em;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+
 .content{
     margin: 0 auto;
 }
